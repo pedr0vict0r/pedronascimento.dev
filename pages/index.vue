@@ -26,7 +26,21 @@
 </template>
 
 <script>
-export default {}
+  export default {
+    head() {
+      return {
+        title: 'Pedro Nascimento Developer',
+        meta: [
+          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Portifolio de Pedro Nascimento'
+          }
+        ]
+      }
+    }
+  }
 </script>
 
 <style>
