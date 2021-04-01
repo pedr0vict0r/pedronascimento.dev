@@ -48,3 +48,17 @@ jobs:
 
       # - name: Run tests 🧪
       #   run: yarn test
+
+      - name: deploy to vps with ssh and git
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd /var/www/pedronascimento.dev
+            git pull
+            yarn install
+            yarn build
+            yarn generate
