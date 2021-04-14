@@ -2283,10 +2283,10 @@
   optionalDependencies:
     prettier "^1.18.2"
 
-"@wdio/cli@^7.3.1":
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-7.3.1.tgz#473bc6630fb112e912c7ffd47a31cd3e530341a7"
-  integrity sha512-zytIFknsoVxkp0OGCnD2RhotcWbot0DA7oqF0lk5qzuWgA1LYxT2OIPSkUgSYcIjSkl3+MUOenmcP3/fNfcRXA==
+"@wdio/cli@^7.4.2":
+  version "7.4.2"
+  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-7.4.2.tgz#b3cdb0c111e41472420a32eb5d6664c5340bddf1"
+  integrity sha512-8VW/BL7LtYOWNiFA8vGbPb1R/nPy3ZQxBuixLa1OfCKxI34tX0PZqUNDvtaCbSpbWd8W5Aq/ApbCbjibqMBwaw==
   dependencies:
     "@types/ejs" "^3.0.5"
     "@types/fs-extra" "^9.0.4"
@@ -2295,10 +2295,10 @@
     "@types/lodash.pickby" "^4.6.6"
     "@types/lodash.union" "^4.6.6"
     "@types/recursive-readdir" "^2.2.0"
-    "@wdio/config" "7.3.1"
-    "@wdio/logger" "7.0.0"
-    "@wdio/types" "7.3.1"
-    "@wdio/utils" "7.3.1"
+    "@wdio/config" "7.4.2"
+    "@wdio/logger" "7.4.2"
+    "@wdio/types" "7.4.2"
+    "@wdio/utils" "7.4.2"
     async-exit-hook "^2.0.1"
     chalk "^4.0.0"
     chokidar "^3.0.0"
@@ -2311,7 +2311,7 @@
     lodash.union "^4.6.0"
     mkdirp "^1.0.4"
     recursive-readdir "^2.2.2"
-    webdriverio "7.3.1"
+    webdriverio "7.4.2"
     yargs "^16.0.3"
     yarn-install "^1.0.0"
 
@@ -2439,17 +2439,17 @@
     easy-table "^1.1.1"
     pretty-ms "^7.0.0"
 
-"@wdio/sync@^7.3.1":
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-7.3.1.tgz#84bc8e21882c067daae236ab090e97daf554dac1"
-  integrity sha512-HbNnAJgLau7qTTXIECtb5/G6UOc5tY4pluiUaX/X3s7zxOHqlaVh6gm8+9HRkUS4tzKVuDikEVfG2kP0EQQycA==
+"@wdio/sync@^7.4.2":
+  version "7.4.2"
+  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-7.4.2.tgz#b4d193ad0f3ea893479d9b9914d4b0c63a94abaf"
+  integrity sha512-Jt0/mmpWsyi5oylU0UxcGFVfm8hiyElNxOPE5CY6fBleZFJOHiypPujsDQ0tQ7abn5bX2nmIX6hv60cTdJRGhQ==
   dependencies:
     "@types/fibers" "^3.1.0"
     "@types/puppeteer" "^5.4.0"
-    "@wdio/logger" "7.0.0"
-    "@wdio/types" "7.3.1"
+    "@wdio/logger" "7.4.2"
+    "@wdio/types" "7.4.2"
     fibers "^5.0.0"
-    webdriverio "7.3.1"
+    webdriverio "7.4.2"
 
 "@wdio/types@7.3.1":
   version "7.3.1"
@@ -5217,10 +5217,10 @@ eslint-plugin-vue@^7.1.0, eslint-plugin-vue@^7.7.0, eslint-plugin-vue@^7.9.0:
     semver "^7.3.2"
     vue-eslint-parser "^7.6.0"
 
-eslint-plugin-wdio@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-wdio/-/eslint-plugin-wdio-7.0.0.tgz#e3cd2cbdef335ce3acd926cd819eea8bb57ecdc2"
-  integrity sha512-ygfHmsIN4kCE6P07rw8sHRb2b3UjAx6Wtqd7uGAYKA65U3S9ogR0DgWXPDmpxNgcpCt3Ejc50dA+bKRgD+rB2Q==
+eslint-plugin-wdio@^7.4.2:
+  version "7.4.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-wdio/-/eslint-plugin-wdio-7.4.2.tgz#c60a3227900bf651b11892624b730c2a20584601"
+  integrity sha512-tkISFycJmRFMKsEjetRcAmWSHKJKnw5rKHDxfE7Ob3tF5lbmYlCLfNKH0UwanOpSdulpe52s3K+CBHSd6qUUNQ==
 
 eslint-scope@^4.0.3:
   version "4.0.3"
@@ -12315,7 +12315,7 @@ webdriver@7.4.2:
     got "^11.0.2"
     lodash.merge "^4.6.1"
 
-webdriverio@7.3.1, webdriverio@^7.2.1:
+webdriverio@7.3.1:
   version "7.3.1"
   resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-7.3.1.tgz#c0a431026f052320da62c8a24c2830bb8e9bba19"
   integrity sha512-I/hEzQrYQFMHcVY2+TvnEqOdBa//Hn9zK4XfBGNBsp8rFEZnJUjGzNpmkCNLszAc26DA2POJBaPnw3uHD7N5Tg==
