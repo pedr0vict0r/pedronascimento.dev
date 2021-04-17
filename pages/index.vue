@@ -3,9 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">Pedro Nascimento Developer</h1>
-      <p class="title" style="font-size: 2vw">
-        Um Desenvolvedor de Belém do Pará
-      </p>
+      <p class="subtitle">Um Desenvolvedor de Belém do Pará</p>
       <div class="links">
         <a
           href="https://www.linkedin.com/in/pedro-nascimento/"
@@ -34,6 +32,8 @@ export default {}
 
 <style>
 .container {
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -43,18 +43,14 @@ export default {}
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 4vw;
+  font-size: min(max(35px, 10vw), 80px);
   color: #35495e;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
+  font-size: min(max(25px, 5vw), 40px);
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;

@@ -58,6 +58,8 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd /var/www/pedronascimento.dev
+            git checkout -f
+            git clean -fd
             git pull
             yarn install
             yarn build
