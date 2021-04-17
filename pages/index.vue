@@ -2,7 +2,10 @@
   <div class="container">
     <div>
       <Logo />
-      <h3 class="title">Pedro Nascimento Developer</h3>
+      <h1 class="title">Pedro Nascimento Developer</h1>
+      <p class="title" style="font-size: 2vw">
+        Um Desenvolvedor de Belém do Pará
+      </p>
       <div class="links">
         <a
           href="https://www.linkedin.com/in/pedro-nascimento/"
@@ -26,20 +29,7 @@
 </template>
 
 <script>
-export default {
-  head() {
-    return {
-      title: 'Pedro Nascimento Developer',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'Portifolio de Pedro Nascimento',
-        },
-      ],
-    }
-  },
-}
+export default {}
 </script>
 
 <style>
@@ -57,7 +47,7 @@ export default {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 4vw;
   color: #35495e;
   letter-spacing: 1px;
 }
