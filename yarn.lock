@@ -2268,10 +2268,10 @@
   optionalDependencies:
     prettier "^1.18.2"
 
-"@wdio/cli@^7.5.0":
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-7.5.0.tgz#5b7293cd14bacf49f13dd38bf6b3b9e74d6f9449"
-  integrity sha512-Peu0rbP/8k18c/fTrBebEZO9qkXNToys58h9VPf5EWDgZ5f8J36yldifk83DRqP8mqprWoikvpqacdEtVrGERQ==
+"@wdio/cli@^7.5.1":
+  version "7.5.1"
+  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-7.5.1.tgz#565a26dd09ee0d6b8b878712950e0e68d2a7a42d"
+  integrity sha512-ZHxUUaXMyDF0rm1CbOFOHUr3z+hUtjmUbAOTDMOPqbo9UfF/4cbd4fbijTyKC/GbeSwr+KcRMKZIvU7WLauo1A==
   dependencies:
     "@types/ejs" "^3.0.5"
     "@types/fs-extra" "^9.0.4"
@@ -2296,7 +2296,7 @@
     lodash.union "^4.6.0"
     mkdirp "^1.0.4"
     recursive-readdir "^2.2.2"
-    webdriverio "7.5.0"
+    webdriverio "7.5.1"
     yargs "^16.0.3"
     yarn-install "^1.0.0"
 
