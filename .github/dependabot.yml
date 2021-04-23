@@ -6,6 +6,7 @@ updates:
   schedule:
     interval: weekly
     time: '00:00'
+  rebase-strategy: auto
   open-pull-requests-limit: 10
   reviewers:
     - pedr0vict0r
