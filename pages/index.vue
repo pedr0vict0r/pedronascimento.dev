@@ -10,7 +10,8 @@
         width="260"
         height="260"
       />
-      <h1 class="title">Pedro Nascimento Developer</h1>
+      <br /><br />
+      <h1 class="title">Pedro Nascimento</h1>
       <p class="subtitle">Um Desenvolvedor de Belém do Pará</p>
       <div class="links">
         <a
