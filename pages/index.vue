@@ -1,7 +1,15 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
+      <!-- <Logo /> -->
+      <img
+        style="height: auto"
+        alt=""
+        class="avatar avatar-user"
+        src="https://avatars.githubusercontent.com/u/17133455"
+        width="260"
+        height="260"
+      />
       <h1 class="title">Pedro Nascimento Developer</h1>
       <p class="subtitle">Um Desenvolvedor de Belém do Pará</p>
       <div class="links">
@@ -58,5 +66,22 @@ export default {}
 
 .links {
   padding-top: 15px;
+}
+
+.avatar {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  border-radius: 6px;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 1px;
+}
+
+.avatar-user {
+  border-radius: 50% !important;
+  border: 1px solid #3b8070;
+  color: #3b8070;
+  text-decoration: none;
 }
 </style>
