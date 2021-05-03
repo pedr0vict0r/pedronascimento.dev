@@ -2268,10 +2268,10 @@
   optionalDependencies:
     prettier "^1.18.2"
 
-"@wdio/cli@^7.5.1":
-  version "7.5.1"
-  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-7.5.1.tgz#565a26dd09ee0d6b8b878712950e0e68d2a7a42d"
-  integrity sha512-ZHxUUaXMyDF0rm1CbOFOHUr3z+hUtjmUbAOTDMOPqbo9UfF/4cbd4fbijTyKC/GbeSwr+KcRMKZIvU7WLauo1A==
+"@wdio/cli@^7.5.3":
+  version "7.5.3"
+  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-7.5.3.tgz#76882e03a4222cea4d8fd1fece81c5c47839a256"
+  integrity sha512-tDq4KK8BwfL9NlegU9ZJDRTl35YZsJZoUJui6oDW+2HhjQFdOI/y8VCRagXhvdxypJSXuBd4WMGg0Rw/Vp3kWQ==
   dependencies:
     "@types/ejs" "^3.0.5"
     "@types/fs-extra" "^9.0.4"
@@ -2280,10 +2280,10 @@
     "@types/lodash.pickby" "^4.6.6"
     "@types/lodash.union" "^4.6.6"
     "@types/recursive-readdir" "^2.2.0"
-    "@wdio/config" "7.5.0"
-    "@wdio/logger" "7.4.2"
-    "@wdio/types" "7.4.2"
-    "@wdio/utils" "7.4.6"
+    "@wdio/config" "7.5.3"
+    "@wdio/logger" "7.5.3"
+    "@wdio/types" "7.5.3"
+    "@wdio/utils" "7.5.3"
     async-exit-hook "^2.0.1"
     chalk "^4.0.0"
     chokidar "^3.0.0"
@@ -2296,7 +2296,7 @@
     lodash.union "^4.6.0"
     mkdirp "^1.0.4"
     recursive-readdir "^2.2.2"
-    webdriverio "7.5.1"
+    webdriverio "7.5.3"
     yargs "^16.0.3"
     yarn-install "^1.0.0"
 
