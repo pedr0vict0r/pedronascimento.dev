@@ -1688,11 +1688,6 @@
   dependencies:
     "@types/node" "*"
 
-"@types/cucumber@^6.0.1":
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/@types/cucumber/-/cucumber-6.0.1.tgz#0fe9673d34568d35ff21957af049883635472fcd"
-  integrity sha512-+GZV6xfN0MeN9shDCdny8GbC8N0+U6uca8cjyaJndcwmrUhwS6qOU2vmYn0d71EOwJF568/v3SxJ8VKxuZNYRw==
-
 "@types/easy-table@^0.0.32":
   version "0.0.32"
   resolved "https://registry.yarnpkg.com/@types/easy-table/-/easy-table-0.0.32.tgz#961034bf7bba3d5a4344585b960d7a0d11a249b5"
@@ -1912,6 +1907,11 @@
   version "12.20.10"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.20.10.tgz#4dcb8a85a8f1211acafb88d72fafc7e3d2685583"
   integrity sha512-TxCmnSSppKBBOzYzPR2BR25YlX5Oay8z2XGwFBInuA/Co0V9xJhLlW4kjbxKtgeNo3NOMbQP1A5Rc03y+XecPw==
+
+"@types/node@^14.14.31":
+  version "14.17.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.17.2.tgz#1e94476db57ec93a372c7f7d29aa5707cfb92339"
+  integrity sha512-sld7b/xmFum66AAKuz/rp/CUO8+98fMpyQ3SBfzzBNGMd/1iHBTAg9oyAvcYlAj46bpc74r91jSw2iFdnx29nw==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -2357,14 +2357,14 @@
   dependencies:
     "@wdio/utils" "7.5.3"
 
-"@wdio/reporter@7.5.3":
-  version "7.5.3"
-  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.5.3.tgz#2e31c4499fb94bea0f9a78c53a6acad8aeb4fec8"
-  integrity sha512-gR2mjMKqYjTYMndYkq3WOBodeGbymRaXCeGvPW5FFXADEkymMzpt2Grw7enHFJrxJq5lJKyd51wItRAONMjhvQ==
+"@wdio/reporter@7.7.3":
+  version "7.7.3"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.7.3.tgz#956ad81fcfad2a2f6dad52b9cdb88803a43c881b"
+  integrity sha512-zAUGgP/FZ3XF5s4RUcDGIAeum3WzkA9ll5lymytxhh/9Jj9/5c77o498ic3RGQlB8FTz+5SVmw08r7g3uekI8g==
   dependencies:
-    "@types/cucumber" "^6.0.1"
-    "@wdio/types" "7.5.3"
-    fs-extra "^9.0.0"
+    "@types/node" "^14.14.31"
+    "@wdio/types" "7.7.3"
+    fs-extra "^10.0.0"
 
 "@wdio/runner@7.5.3":
   version "7.5.3"
@@ -2380,14 +2380,14 @@
     webdriver "7.5.3"
     webdriverio "7.5.3"
 
-"@wdio/spec-reporter@^7.5.3":
-  version "7.5.3"
-  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-7.5.3.tgz#de174dea21a2167ff1ed0528db6c227c202513ff"
-  integrity sha512-2i2kjBP5+qfe2IVJESPbCVo6idPuQsBdktDcFh7ZkFppfZNARNHMaFY9zxCIoB47L5qtTuIe60I1+BoQ/3Xw4A==
+"@wdio/spec-reporter@^7.7.3":
+  version "7.7.3"
+  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-7.7.3.tgz#6f46f5668193ea0e2c6d3e8f9449d82551baf436"
+  integrity sha512-5elsNfZd3kbBaKY5IK5ZmdZsWZNSOCqXnM2fYryAh2RBoXbcXkak4D5PbLehusZhp6CQ7UpXEKf4BDDYfd0ebw==
   dependencies:
     "@types/easy-table" "^0.0.32"
-    "@wdio/reporter" "7.5.3"
-    "@wdio/types" "7.5.3"
+    "@wdio/reporter" "7.7.3"
+    "@wdio/types" "7.7.3"
     chalk "^4.0.0"
     easy-table "^1.1.1"
     pretty-ms "^7.0.0"
@@ -2409,6 +2409,14 @@
   resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.5.3.tgz#9239b00fd2c2ef75f7a6bda965b5be0855d97f7e"
   integrity sha512-jmumhKBhNDABnpmrshYLEcdE9WoP5tmynsDNbDABlb/W8FFiLySQOejukhYIL9CLys4zXerV3/edks0SCzHOiQ==
   dependencies:
+    got "^11.8.1"
+
+"@wdio/types@7.7.3":
+  version "7.7.3"
+  resolved "https://registry.yarnpkg.com/@wdio/types/-/types-7.7.3.tgz#b92380a575d66d5f9c43b4b3c57f9311295f7545"
+  integrity sha512-ZZBQHCXKjZSQj9pf4df/QhfgQQj0vzm9hkK7YyNM+S+qnW0LExL8qQKLxTlGHDaYxk/+Jrd9pcZrJXRCoSnUaA==
+  dependencies:
+    "@types/node" "^14.14.31"
     got "^11.8.1"
 
 "@wdio/utils@7.5.3":
@@ -5584,6 +5592,15 @@ fs-constants@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs-constants/-/fs-constants-1.0.0.tgz#6be0de9be998ce16af8afc24497b9ee9b7ccd9ad"
   integrity sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow==
+
+fs-extra@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.0.0.tgz#9ff61b655dde53fb34a82df84bb214ce802e17c1"
+  integrity sha512-C5owb14u9eJwizKGdchcDUQeFtlSHHthBk8pbX9Vc1PFZrLombudjDnNns88aYslCyF6IY5SUw3Roz6xShcEIQ==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
 
 fs-extra@^8.1.0:
   version "8.1.0"
