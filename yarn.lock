@@ -4681,13 +4681,13 @@ eslint-plugin-node@^11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-nuxt@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-nuxt/-/eslint-plugin-nuxt-2.0.0.tgz#62dce8b2f6aa205a93a328d22ce04c39f7ee79d7"
+eslint-plugin-nuxt@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-nuxt/-/eslint-plugin-nuxt-3.1.0.tgz#b8d70dc321e2f2f345039980eb28a2f52b3dc492"
   dependencies:
-    eslint-plugin-vue "^7.1.0"
-    semver "^7.3.2"
-    vue-eslint-parser "^7.1.1"
+    eslint-plugin-vue "^8.1.1"
+    semver "^7.3.5"
+    vue-eslint-parser "^8.0.1"
 
 eslint-plugin-prettier@^4.0.0:
   version "4.0.0"
@@ -4732,7 +4732,7 @@ eslint-plugin-vue@^7.1.0, eslint-plugin-vue@^7.20.0:
     semver "^6.3.0"
     vue-eslint-parser "^7.10.0"
 
-eslint-plugin-vue@^8.2.0:
+eslint-plugin-vue@^8.1.1, eslint-plugin-vue@^8.2.0:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-8.2.0.tgz#b404bc10e3f43b2b7aad4ebb3b38090a58040202"
   dependencies:
@@ -10851,7 +10851,7 @@ vue-client-only@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/vue-client-only/-/vue-client-only-2.1.0.tgz#1a67a47b8ecacfa86d75830173fffee3bf8a4ee3"
 
-vue-eslint-parser@^7.1.1, vue-eslint-parser@^7.10.0:
+vue-eslint-parser@^7.10.0:
   version "7.10.0"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-7.10.0.tgz#ea4e4b10fd10aa35c8a79ac783488d8abcd29be8"
   dependencies:
