@@ -1143,9 +1143,9 @@
     std-env "^2.3.0"
     ufo "^0.7.4"
 
-"@nuxt/content@^1.14.0":
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-1.14.0.tgz#5775b596d2db1ae65c41d461c0a6734fc276cb82"
+"@nuxt/content@^1.15.1":
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-1.15.1.tgz#bd2c7ff9e9523b6a6a3f4edaec78495acc72a41e"
   dependencies:
     "@lokidb/full-text-search" "^2.1.0"
     "@lokidb/loki" "^2.1.0"
@@ -1165,6 +1165,7 @@
     hookable "^4.4.1"
     html-tags "^3.1.0"
     js-yaml "4.0.0"
+    json5 "^2.2.0"
     mdast-util-to-hast "^10.2.0"
     mkdirp "^1.0.4"
     node-req "^2.1.2"
@@ -6543,7 +6544,7 @@ json5@^1.0.1:
   dependencies:
     minimist "^1.2.0"
 
-json5@^2.1.2:
+json5@^2.1.2, json5@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.0.tgz#2dfefe720c6ba525d9ebd909950f0515316c89a3"
   dependencies:
