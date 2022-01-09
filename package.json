@@ -33,7 +33,7 @@
     "nuxt": "^2.15.6"
   },
   "devDependencies": {
-    "@commitlint/cli": "^13.2.1",
+    "@commitlint/cli": "^16.0.2",
     "@commitlint/config-conventional": "^12.1.4",
     "@nuxtjs/eslint-config": "^7.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
@@ -42,7 +42,7 @@
     "@wdio/local-runner": "^7.16.12",
     "@wdio/mocha-framework": "^7.16.11",
     "@wdio/spec-reporter": "^7.16.11",
-    "@wdio/sync": "^7.7.3",
+    "@wdio/sync": "^7.16.12",
     "babel-eslint": "^10.1.0",
     "eslint": "^8.1.0",
     "eslint-config-prettier": "^8.3.0",
@@ -56,6 +56,6 @@
     "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^22.0.0",
-    "webdriverio": "^7.6.1"
+    "webdriverio": "^7.16.12"
   }
 }
