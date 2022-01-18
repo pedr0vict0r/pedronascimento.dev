@@ -1802,10 +1802,6 @@
   version "17.0.8"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.8.tgz#50d680c8a8a78fe30abe6906453b21ad8ab0ad7b"
 
-"@types/node@^16.11.1":
-  version "16.11.19"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.19.tgz#1afa165146997b8286b6eabcb1c2d50729055169"
-
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz#d3357479a0fdfdd5907fe67e17e0a85c906e1301"
@@ -2299,16 +2295,16 @@
     easy-table "^1.1.1"
     pretty-ms "^7.0.0"
 
-"@wdio/sync@^7.16.12":
-  version "7.16.12"
-  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-7.16.12.tgz#c5e5955979d188571c192dec231cc5c3380d257c"
+"@wdio/sync@^7.16.13":
+  version "7.16.13"
+  resolved "https://registry.yarnpkg.com/@wdio/sync/-/sync-7.16.13.tgz#61075b4e590d1bcae604714be1fc7034eb733db5"
   dependencies:
     "@types/fibers" "^3.1.0"
     "@types/puppeteer" "^5.4.0"
     "@wdio/logger" "7.16.0"
-    "@wdio/types" "7.16.11"
+    "@wdio/types" "7.16.13"
     fibers "^5.0.0"
-    webdriverio "7.16.12"
+    webdriverio "7.16.13"
 
 "@wdio/types@7.16.11":
   version "7.16.11"
