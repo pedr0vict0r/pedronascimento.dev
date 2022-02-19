@@ -2541,17 +2541,18 @@
   dependencies:
     "@wdio/utils" "7.16.14"
 
-"@wdio/reporter@7.16.13":
-  version "7.16.13"
-  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.16.13.tgz#ec3474b4a6280a78a44f9dd261002237d6075143"
-  integrity sha512-S7OH96yfSCJwmirsvT8khfWUfoMTiw0O1+UyiOYS/g0l+IideVK83kpyXYWfsALPahL2te0g57lPazriSfNAyA==
+"@wdio/reporter@7.16.14":
+  version "7.16.14"
+  resolved "https://registry.yarnpkg.com/@wdio/reporter/-/reporter-7.16.14.tgz#940b63b34210a007a7fb84f08ba699f04b20d46a"
+  integrity sha512-e/I2oGfqjx9+zI4NT/garqxm7Afnos1EcrGSNu75WmP3PNJt4i+9DKkROu4PM6XWcpUB4v2UF7Mv/NrL3TU9aA==
+
   dependencies:
     "@types/diff" "^5.0.0"
     "@types/node" "^17.0.4"
     "@types/object-inspect" "^1.8.0"
     "@types/supports-color" "^8.1.0"
     "@types/tmp" "^0.2.0"
-    "@wdio/types" "7.16.13"
+    "@wdio/types" "7.16.14"
     diff "^5.0.0"
     fs-extra "^10.0.0"
     object-inspect "^1.10.3"
@@ -2571,14 +2572,14 @@
     webdriver "7.16.13"
     webdriverio "7.16.13"
 
-"@wdio/spec-reporter@^7.16.13":
-  version "7.16.13"
-  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-7.16.13.tgz#5c7bc391c3c6787ece70fc37d5a7dec0276a90e8"
-  integrity sha512-4gnflBJU+QDcmWgRy3tSRD47cqZmdjPLEJhsfhv/aBNtWPWMJtQru7nDFcLkxKLFPiN0D1F7gUMWbUMaDVlojg==
+"@wdio/spec-reporter@^7.16.14":
+  version "7.16.14"
+  resolved "https://registry.yarnpkg.com/@wdio/spec-reporter/-/spec-reporter-7.16.14.tgz#7748318ec0ec6875936809d01024b9521fbfcb13"
+  integrity sha512-hpS2rLXo91lfrit5/pjDSbff2lqQe+k07/JPOJ48W+ZPSI+ib7rSldI4JFYU4YuKN1TnhkbhxRBMib3bF3Fs+Q==
   dependencies:
     "@types/easy-table" "^0.0.33"
-    "@wdio/reporter" "7.16.13"
-    "@wdio/types" "7.16.13"
+    "@wdio/reporter" "7.16.14"
+    "@wdio/types" "7.16.14"
     chalk "^4.0.0"
     easy-table "^1.1.1"
     pretty-ms "^7.0.0"
@@ -4234,10 +4235,10 @@ core-js@^2.6.5:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
 
-core-js@^3.20.3:
-  version "3.20.3"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.20.3.tgz#c710d0a676e684522f3db4ee84e5e18a9d11d69a"
-  integrity sha512-vVl8j8ph6tRS3B8qir40H7yw7voy17xL0piAjlbBUsH7WIfzoedL/ZOr1OV9FyZQLWXsayOJyV4tnRyXR85/ag==
+core-js@^3.21.0:
+  version "3.21.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.21.0.tgz#f479dbfc3dffb035a0827602dd056839a774aa71"
+  integrity sha512-YUdI3fFu4TF/2WykQ2xzSiTQdldLB4KVuL9WeAy5XONZYt5Cun/fpQvctoKbCgvPhmzADeesTk/j2Rdx77AcKQ==
 
 core-util-is@~1.0.0:
   version "1.0.3"
@@ -5265,10 +5266,10 @@ eslint-plugin-unicorn@^39.0.0:
     semver "^7.3.5"
     strip-indent "^3.0.0"
 
-eslint-plugin-vue@^8.1.1, eslint-plugin-vue@^8.3.0:
-  version "8.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-8.3.0.tgz#2ae4f915ed3541a58c4a4c1145c1e60b86aa7e85"
-  integrity sha512-IIuLHw4vQxGlHcoP2dG6t/2OVdQf2qoyAzEGAxreU1afZOHGA7y3TWq8I+r3ZA6Wjs6xpeUWGHlT31QGr9Rb5g==
+eslint-plugin-vue@^8.1.1, eslint-plugin-vue@^8.4.1:
+  version "8.4.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-8.4.1.tgz#0a25493bbfee6baa21614e637e3fd390617c0bb4"
+  integrity sha512-nmWOhNmDx9TZ+yP9ZhezTkZUupSHsYA2TocRm+efPSXMOyFrVczVlaIuQcLBjCtI8CbkBiUQ3VcyQsjlIhDrhA==
   dependencies:
     eslint-utils "^3.0.0"
     natural-compare "^1.4.0"
