@@ -2014,20 +2014,15 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^17.0.4":
-  version "17.0.10"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.10.tgz#616f16e9d3a2a3d618136b1be244315d95bd7cab"
-  integrity sha512-S/3xB4KzyFxYGCppyDt68yzBU9ysL88lSdIah4D6cptdcltc4NCPCAMc0+PCpg/lLIyC7IPvj2Z52OJWeIUkog==
+"@types/node@*", "@types/node@>=12", "@types/node@^17.0.4":
+  version "17.0.18"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.18.tgz#3b4fed5cfb58010e3a2be4b6e74615e4847f1074"
+  integrity sha512-eKj4f/BsN/qcculZiRSujogjvp5O/k4lOW5m35NopjZM/QwLOR075a8pJW5hD+Rtdm2DaCVPENS6KtSQnUD6BA==
 
 "@types/node@12.20.12":
   version "12.20.12"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.20.12.tgz#fd9c1c2cfab536a2383ed1ef70f94adea743a226"
   integrity sha512-KQZ1al2hKOONAs2MFv+yTQP1LkDWMrRJ9YCVRalXltOfXsBmH5IownLxQaiq0lnAHwAViLnh2aTYqrPcRGEbgg==
-
-"@types/node@>=12":
-  version "17.0.18"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.18.tgz#3b4fed5cfb58010e3a2be4b6e74615e4847f1074"
-  integrity sha512-eKj4f/BsN/qcculZiRSujogjvp5O/k4lOW5m35NopjZM/QwLOR075a8pJW5hD+Rtdm2DaCVPENS6KtSQnUD6BA==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -2439,10 +2434,10 @@
   optionalDependencies:
     prettier "^1.18.2 || ^2.0.0"
 
-"@wdio/cli@^7.16.15":
-  version "7.16.15"
-  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-7.16.15.tgz#0d59996736159ed0648d47d7c4e6b481858cd196"
-  integrity sha512-dU+KiLiYu9NgyiAk3sgcMkAGVOMUNG+hpHKnMgmDgF+oOv+MuD1XweNYq1eaTqtz2B5qclC/m12pzoOTSmtypg==
+"@wdio/cli@^7.17.4":
+  version "7.17.4"
+  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-7.17.4.tgz#a978caab4029541bc9d6493f27046e262dc73e49"
+  integrity sha512-nG+ZCKQ8Bu+rXYuHdsJ5Al/aNlD6YrU75DWaOU4JCJJmt/ulhVZ2awIyTiIYzRsZVwohPmm8lR01wYlMwHRX9g==
   dependencies:
     "@types/ejs" "^3.0.5"
     "@types/fs-extra" "^9.0.4"
@@ -2452,10 +2447,10 @@
     "@types/lodash.union" "^4.6.6"
     "@types/node" "^17.0.4"
     "@types/recursive-readdir" "^2.2.0"
-    "@wdio/config" "7.16.14"
-    "@wdio/logger" "7.16.0"
-    "@wdio/types" "7.16.14"
-    "@wdio/utils" "7.16.14"
+    "@wdio/config" "7.17.3"
+    "@wdio/logger" "7.17.3"
+    "@wdio/types" "7.17.3"
+    "@wdio/utils" "7.17.3"
     async-exit-hook "^2.0.1"
     chalk "^4.0.0"
     chokidar "^3.0.0"
@@ -2468,19 +2463,9 @@
     lodash.union "^4.6.0"
     mkdirp "^1.0.4"
     recursive-readdir "^2.2.2"
-    webdriverio "7.16.15"
+    webdriverio "7.17.4"
     yargs "^17.0.0"
     yarn-install "^1.0.0"
-
-"@wdio/config@7.16.14":
-  version "7.16.14"
-  resolved "https://registry.yarnpkg.com/@wdio/config/-/config-7.16.14.tgz#cb18322e0ee8cba9eee4888191acfef1f8ebcca1"
-  integrity sha512-CdB8F4XFbuH9W3JaLYQoJMPRzM+GQirg9Ay1dW4xNcmJk7m3TJbk3/L78oz8ey1TpCLjQTG8aNqI4SZlFO4JRg==
-  dependencies:
-    "@wdio/logger" "7.16.0"
-    "@wdio/types" "7.16.14"
-    deepmerge "^4.0.0"
-    glob "^7.1.2"
 
 "@wdio/config@7.17.3":
   version "7.17.3"
