@@ -4,12 +4,18 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'DefaultLayout'
+}
+</script>
+
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
-  word-spacing: 1px;/* -ms-text-size-adjust: 100%; *//* -webkit-text-size-adjust: 100%; */
+  word-spacing: 1px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
@@ -39,8 +45,8 @@ html {
 .button-grey {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
+  border: 1px solid #24292f;
+  color: #24292f;
   text-decoration: none;
   padding: 10px 30px;
   margin-left: 15px;
@@ -48,6 +54,37 @@ html {
 
 .button-grey:hover {
   color: #fff;
-  background-color: #35495e;
+  background-color: #24292f;
 }
+
+.button-orange {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #f96424;
+  color: #f96424;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-left: 15px;
+}
+
+.button-orange:hover {
+  color: #fff;
+  background-color: #f96424;
+}
+
+.button-blue {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #0a66c2;
+  color: #0a66c2;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-left: 15px;
+}
+
+.button-blue:hover {
+  color: #fff;
+  background-color: #0a66c2;
+}
+
 </style>
