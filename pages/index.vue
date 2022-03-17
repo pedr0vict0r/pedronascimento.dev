@@ -18,7 +18,7 @@
           href="https://www.linkedin.com/in/pedro-nascimento/"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--green"
+          class="button-green"
         >
           LinkedIn
         </a>
@@ -26,7 +26,7 @@
           href="https://github.com/pedr0vict0r"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--grey"
+          class="button-grey"
         >
           GitHub
         </a>
@@ -41,7 +41,7 @@ export default {}
 
 <style>
 .container {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+  font-family: Quicksand, 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   margin: 0 auto;
   min-height: 100vh;
