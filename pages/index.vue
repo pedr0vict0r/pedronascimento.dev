@@ -18,17 +18,22 @@
           href="https://www.linkedin.com/in/pedro-nascimento/"
           target="_blank"
           rel="noopener noreferrer"
-          class="button-green"
-        >
+          class="button-blue">
           LinkedIn
         </a>
         <a
           href="https://github.com/pedr0vict0r"
           target="_blank"
           rel="noopener noreferrer"
-          class="button-grey"
-        >
+          class="button-grey">
           GitHub
+        </a>
+        <a
+          href="https://gitlab.com/pedr0vict0r"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button-orange">
+          GitLab
         </a>
       </div>
     </div>
@@ -36,7 +41,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'IndexPage'
+}
 </script>
 
 <style>

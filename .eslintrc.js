@@ -10,9 +10,7 @@ module.exports = {
   },
   extends: [
     '@nuxtjs',
-    'plugin:prettier/recommended',
-    'plugin:wdio/recommended',
-    'plugin:nuxt/recommended',
+    'prettier'
   ],
   plugins: ['wdio'],
   // add your custom rules here

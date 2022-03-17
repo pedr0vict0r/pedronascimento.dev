@@ -21,6 +21,12 @@
   </svg>
 </template>
 
+<script>
+export default {
+  name: 'LogoComponent'
+}
+</script>
+
 <style>
 .nuxt-logo {
   animation: 1s appear;
