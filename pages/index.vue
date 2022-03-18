@@ -1,40 +1,43 @@
 <template>
-  <div class="container">
-    <div>
-      <!-- <Logo /> -->
-      <img
-        style="height: auto"
-        alt=""
-        class="avatar avatar-user"
-        src="https://avatars.githubusercontent.com/u/17133455"
-        width="260"
-        height="260"
-      />
-      <br /><br />
-      <h1 class="title">Pedro Nascimento</h1>
-      <p class="subtitle">Um Desenvolvedor de Belém do Pará</p>
-      <div class="links">
-        <a
-          href="https://www.linkedin.com/in/pedro-nascimento/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button-blue">
-          LinkedIn
-        </a>
-        <a
-          href="https://github.com/pedr0vict0r"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button-grey">
-          GitHub
-        </a>
-        <a
-          href="https://gitlab.com/pedr0vict0r"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button-orange">
-          GitLab
-        </a>
+  <div>
+    <div class="color-mode-picker"><ColorModePicker /></div>
+    <div class="container">
+      <div>
+        <!-- <Logo /> -->
+        <img
+          style="height: auto"
+          alt=""
+          class="avatar avatar-user"
+          src="https://avatars.githubusercontent.com/u/17133455"
+          width="260"
+          height="260"
+        />
+        <br /><br />
+        <h1 class="title">Pedro Nascimento</h1>
+        <p class="subtitle">Um Desenvolvedor de Belém do Pará</p>
+        <div class="links">
+          <a
+            href="https://www.linkedin.com/in/pedro-nascimento/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button-blue">
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/pedr0vict0r"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button-grey">
+            GitHub
+          </a>
+          <a
+            href="https://gitlab.com/pedr0vict0r"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button-orange">
+            GitLab
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -58,20 +61,6 @@ export default {
   text-align: center;
 }
 
-.title {
-  font-size: min(max(35px, 10vw), 80px);
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: min(max(25px, 5vw), 40px);
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
 .links {
   padding-top: 15px;
 }
@@ -91,5 +80,10 @@ export default {
   border: 1px solid #3b8070;
   color: #3b8070;
   text-decoration: none;
+}
+
+.color-mode-picker {
+  padding: 10px;
+  text-align: right;
 }
 </style>
