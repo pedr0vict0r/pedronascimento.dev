@@ -59,7 +59,7 @@ jobs:
           script: |
             cd /var/www/pedronascimento.dev
             rm yarn.lock
-            rm -r node_modules/
+            rm -rf node_modules/
             git checkout -f
             git clean -fd
             git pull
