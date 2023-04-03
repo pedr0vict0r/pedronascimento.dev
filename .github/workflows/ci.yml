@@ -58,7 +58,7 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd /var/www/pedronascimento.dev
-            rm yarn.lock
+            rm -f yarn.lock
             rm -rf node_modules/
             git checkout -f
             git clean -fd
