@@ -61,6 +61,7 @@ jobs:
             cd /var/www/pedronascimento.dev
             rm -f yarn.lock
             rm -rf node_modules/
+            git reset --hard origin/main
             git checkout -f
             git clean -fd
             git pull
