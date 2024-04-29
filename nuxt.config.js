@@ -64,8 +64,6 @@ export default {
   ],
   components: true,
   buildModules: [
-    '@nuxtjs/eslint-module',
-    '@nuxtjs/stylelint-module',
     '@nuxtjs/color-mode',
     '@nuxtjs/svg',
   ],
@@ -73,7 +71,6 @@ export default {
     'bootstrap-vue/nuxt',
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    '@nuxt/content',
     '@nuxtjs/proxy'
   ],
   axios: {

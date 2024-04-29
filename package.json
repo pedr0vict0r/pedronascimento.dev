@@ -11,19 +11,18 @@
   "dependencies": {
     "nuxt": "^2.17.3",
     "vue": "^2.7.16",
-    "@nuxt/content": "^2.12",
     "@nuxtjs/axios": "^5.13",
     "@nuxtjs/proxy": "^2.1",
     "@nuxtjs/pwa": "^3.3",
-    "bootstrap": "^4.6",
     "bootstrap-vue": "^2.23",
+    "bootstrap": "^4.6",
     "core-js": "^3.36",
     "vue-server-renderer": "^2.7",
     "vue-template-compiler": "^2.7",
-    "webpack": "^5.90"
+    "webpack": "^4.46.0"
   },
   "devDependencies": {
-    "@nuxtjs/svg": "^0.4",
-    "@nuxtjs/color-mode": "^3.3"
+    "@nuxtjs/color-mode": "^2.1.1",
+    "@nuxtjs/svg": "^0.4"
   }
 }
