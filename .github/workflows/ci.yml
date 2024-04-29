@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-#   pull_request:
-#     branches:
-#       - main
 
 jobs:
   ci:
@@ -43,12 +40,6 @@ jobs:
 
       - name: Install dependencies 👨🏻‍💻
         run: yarn
-
-      # - name: Run linter 👀
-      #   run: yarn lint
-
-      # - name: Run tests 🧪
-      #   run: yarn test
 
       - name: deploy to vps with ssh and git
         uses: appleboy/ssh-action@master
