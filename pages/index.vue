@@ -30,13 +30,6 @@
             class="button-grey">
             GitHub
           </a>
-          <a
-            href="https://gitlab.com/pedr0vict0r"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button-orange">
-            GitLab
-          </a>
         </div>
       </div>
     </div>
