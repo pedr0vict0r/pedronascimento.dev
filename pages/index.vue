@@ -3,7 +3,6 @@
     <div class="color-mode-picker"><ColorModePicker /></div>
     <div class="container">
       <div>
-        <!-- <Logo /> -->
         <img
           style="height: auto"
           alt=""
