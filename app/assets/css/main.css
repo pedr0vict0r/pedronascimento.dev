@@ -37,14 +37,34 @@
   --border-color: #ded0bf;
 }
 
+/* base mínima que antes vinha do reboot do Bootstrap */
 body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
   background-color: var(--bg);
   color: var(--color);
   transition: background-color .3s;
 }
 
+h1 {
+  margin: 0 0 .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
 a {
-  color: var(--color-primary)
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .title {
@@ -67,7 +87,6 @@ a {
   border: 1px solid #0a66c2;
   color: var(--button-blue-color);
   padding: 10px 30px;
-  margin-left: 15px;
 }
 
 .button-blue:hover {
@@ -82,7 +101,6 @@ a {
   border: var(--button-gray-border-color);
   color: var(--button-gray-color);
   padding: 10px 30px;
-  margin-left: 15px;
 }
 
 .button-grey:hover {
@@ -98,7 +116,6 @@ a {
   border: 1px solid #f96424;
   color: var(--button-orange-color);
   padding: 10px 30px;
-  margin-left: 15px;
 }
 
 .button-orange:hover {

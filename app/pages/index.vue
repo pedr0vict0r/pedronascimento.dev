@@ -1,17 +1,15 @@
 <template>
   <div>
     <div class="color-mode-picker"><ColorModePicker /></div>
-    <div class="container">
+    <main class="container">
       <div>
         <img
-          style="height: auto"
-          alt=""
           class="avatar avatar-user"
           src="https://avatars.githubusercontent.com/u/17133455"
+          alt="Foto de Pedro Nascimento"
           width="260"
           height="260"
-        />
-        <br /><br />
+        >
         <h1 class="title">Pedro Nascimento</h1>
         <p class="subtitle">Um Desenvolvedor de Belém do Pará</p>
         <div class="links">
@@ -19,33 +17,30 @@
             href="https://www.linkedin.com/in/pedro-nascimento/"
             target="_blank"
             rel="noopener noreferrer"
-            class="button-blue">
+            class="button-blue"
+          >
             LinkedIn
           </a>
           <a
             href="https://github.com/pedr0vict0r"
             target="_blank"
             rel="noopener noreferrer"
-            class="button-grey">
+            class="button-grey"
+          >
             GitHub
           </a>
         </div>
       </div>
-    </div>
+    </main>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'IndexPage'
-}
-</script>
 
 <style>
 .container {
   font-family: Quicksand, 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   margin: 0 auto;
+  padding: 0 15px;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -54,16 +49,20 @@ export default {
 }
 
 .links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
   padding-top: 15px;
 }
 
 .avatar {
-  display: inline-block;
+  display: block;
+  margin: 0 auto 28px;
+  max-width: 100%;
+  height: auto;
   overflow: hidden;
-  line-height: 1;
-  vertical-align: middle;
   border-radius: 6px;
-  flex-shrink: 0;
   box-shadow: 0 0 0 1px;
 }
 
@@ -71,7 +70,6 @@ export default {
   border-radius: 50% !important;
   border: 1px solid #3b8070;
   color: #3b8070;
-  text-decoration: none;
 }
 
 .color-mode-picker {
