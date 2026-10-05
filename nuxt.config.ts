@@ -23,14 +23,17 @@ export default defineNuxtConfig({
         { property: 'og:url', content: `${siteUrl}/` },
         { property: 'og:title', content: siteName },
         { property: 'og:description', content: description },
-        { property: 'og:image', content: 'https://avatars.githubusercontent.com/u/17133455' },
+        // gerada por scripts/gera-imagens.py
+        { property: 'og:image', content: `${siteUrl}/og-image.jpg` },
         { property: 'og:image:width', content: '1024' },
         { property: 'og:image:height', content: '1024' },
+        { property: 'og:image:alt', content: 'Caricatura de Pedro Nascimento' },
         { name: 'twitter:card', content: 'summary' },
       ],
       link: [
         { rel: 'canonical', href: `${siteUrl}/` },
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
       ],
     },
   },

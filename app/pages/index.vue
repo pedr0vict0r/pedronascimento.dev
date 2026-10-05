@@ -1,3 +1,7 @@
+<script setup>
+import avatar from '~/assets/images/avatar.webp'
+</script>
+
 <template>
   <div>
     <div class="color-mode-picker"><ColorModePicker /></div>
@@ -5,8 +9,8 @@
       <div>
         <img
           class="avatar avatar-user"
-          src="https://avatars.githubusercontent.com/u/17133455"
-          alt="Foto de Pedro Nascimento"
+          :src="avatar"
+          alt="Caricatura de Pedro Nascimento"
           width="260"
           height="260"
         >
