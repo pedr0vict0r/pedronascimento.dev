@@ -7,6 +7,7 @@
 # exceto o manifesto do build, que muda a cada deploy
 /_nuxt/builds/*
   ! Cache-Control
+  Cache-Control: public, max-age=0, must-revalidate
 
 /*
   X-Content-Type-Options: nosniff
