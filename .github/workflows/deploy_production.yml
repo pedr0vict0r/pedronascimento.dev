@@ -21,18 +21,25 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v7
         with:
-          node-version: '22'
+          node-version: '24'
           cache: 'npm'
 
-      # o nuxt generate (target static) já faz o build, não precisa do nuxt build antes
       - name: Install dependencies and generate
         run: |
           npm ci --no-audit --no-fund
           npm run generate
+
+      # confere se a página foi pré-renderizada com o conteúdo esperado antes de publicar
+      - name: Check generated site
+        run: |
+          test -f .output/public/index.html
+          test -f .output/public/404.html
+          grep -q '<title>Pedro Nascimento Developer</title>' .output/public/index.html
+          grep -q '<h1 class="title">Pedro Nascimento</h1>' .output/public/index.html
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy dist --project-name=pedronascimento --branch=main
+          command: pages deploy .output/public --project-name=pedronascimento --branch=main

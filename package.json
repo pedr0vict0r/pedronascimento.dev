@@ -1,28 +1,24 @@
 {
   "name": "pedronascimento.dev",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
+    "dev": "nuxt dev",
     "build": "nuxt build",
-    "dev": "nuxt",
     "generate": "nuxt generate",
-    "start": "nuxt start"
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "engines": {
+    "node": ">=22"
   },
   "dependencies": {
-    "nuxt": "^2.17.3",
-    "vue": "^2.7.16",
-    "@nuxtjs/axios": "^5.13",
-    "@nuxtjs/proxy": "^2.1",
-    "@nuxtjs/pwa": "^3.3",
-    "bootstrap-vue": "^2.23",
-    "bootstrap": "^4.6",
-    "core-js": "^3.36",
-    "vue-server-renderer": "^2.7",
-    "vue-template-compiler": "^2.7",
-    "webpack": "^4.46.0"
+    "nuxt": "^4.5.2",
+    "vue": "^3.5.43",
+    "vue-router": "^5.3.1"
   },
   "devDependencies": {
-    "@nuxtjs/color-mode": "^2.1.1",
-    "@nuxtjs/svg": "^0.4"
+    "@nuxtjs/color-mode": "^4.0.1"
   }
 }
